@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:id="@+id/fragment_all_debt"
+    android:baselineAligned="false"
+    tools:context="com.example.daviswu.debttracker.AllDebtFragment"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:textAlignment="center">
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        tools:context="com.example.daviswu.debttracker.AllDebtFragment"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|center"
+        android:textAlignment="center" >
+    </android.support.v7.widget.RecyclerView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Congratulations."
+        android:id="@+id/debt_free_text"
+        android:layout_gravity="center" />
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add_white"
+        fab:fab_colorNormal="@color/primary"
+        fab:fab_colorPressed="@color/primary"
+        fab:fab_colorRipple="@color/grey"
+        android:scaleType="fitCenter" />
+
+</FrameLayout>

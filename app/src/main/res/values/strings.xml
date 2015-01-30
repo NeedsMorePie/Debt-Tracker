@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Debt Tracker</string>
+    <string name="title_section1">All Debt</string>
+    <string name="title_section2">My Debt</string>
+    <string name="title_section3">Others\' Debt</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="new_debt">New Debt</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_new_debt_form">NewDebtForm</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="status_options">
+        <item>Owed to</item>
+        <item>Owed by</item>
+    </string-array>
+    <string-array name="status_option_values">
+        <item>Owed to</item>
+        <item>Owed by</item>
+    </string-array>
+
+    <color name="primary">#AA66CC</color>
+    <color name="primary_light">#ffce85f2</color>
+    <color name="primary_dark">#9933CC</color>
+    <color name="accent">#777</color>
+    <color name="grey">#ddd</color>
+
+    <color name="primary_pressed">#303f9f</color>
+    <color name="button_accent">#ff4081</color>
+    <color name="accent_pressed">#f50057</color>
+
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="title_activity_edit_view">EditViewActivity</string>
+
+</resources>
